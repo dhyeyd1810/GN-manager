@@ -6,7 +6,7 @@ A modern Android application built with **Kotlin** and **Jetpack Compose** desig
 
 ##  Features
 
-- **🏛️ Amenity & Hall Booking**:
+- ** Amenity & Hall Booking**:
   - Book community halls and club facilities with real-time slot conflict detection.
   - Interactive hourly duration slider and dynamic pricing calculations.
   - Instant confirmation and booking history.
