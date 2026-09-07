@@ -1634,34 +1634,7 @@ suspend fun sendNotificationToTopic(title: String, messageBody: String) {
             val projectId = "goldennest-1576e"
             val clientEmail = "firebase-adminsdk-fbsvc@goldennest-1576e.iam.gserviceaccount.com"
 
-            val rawPrivateKey = """
-                MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDLR/KB0VkT36RB
-                ZUizXwSSIk5UuZWjYjgds4qqgIxsiP6ar0xenqpiUp/xkLe3juKHZa2Bt1XAVguZ
-                fDu56ko7hpGKaztqrzZp8NK+d5XW5j2Q0ZiI1eRQyLi4zlj4SOFu3I0pvNL1Hjsw
-                R6LRNXdpJxcnWQVB9hgWVYEKVef/Lyr9tFJZl+1VBh4t6DyBlCGLK2TtevVXu0Kk
-                aKyxf43yhwxgSLq/yeQi6KfHZx2FzdbcfmAC7u1hkmNtCmXFRzQJ8f1GuGU2SVMJ
-                eSM7B214zKAydi2ZmGisHSujiCgfU8c3/1ns6jU7x8aLRkCPH3YwaFmxq+7A/tsu
-                wC80jOQfAgMBAAECggEAVdsHzhN8w1uH9MTR3UxK0muh2L/fNvfTSpwbe2K6rFZ5
-                7hwOrcHmpYtPGUgth93VyCjGDMzBb3AICyXA1gdhnd16l9Mtb6Qb38fCQoagZvis
-                VP9pJJXuDb6Q4iDoy8iASgHlrxScpsFDb2M6HZEu418KtOgww8isKLapPxPEXe6t
-                E+OQ0rsz+tMRK4ATxJ56+74gsvjoUNS2C1TBosv3i+yrbc6lrNKEa5ZJccvoqU96
-                Mvtnb3ioFyygoURIhn6k9NSQORyJ94k7SNM06E07yEFmXQF7wSQaJbCo+uH7Xroq
-                EDarsMoRu0lf4ovHkw11undYiY9b9v/CrZjTxhERzQKBgQD458EoNnBPrdukLjE6
-                5C67tyAoyAriDng/U2sKQjCNuVSGWAUk3yNCwBLsC/tnChRWFjYFsX0YJqJN2EIo
-                6yj5o2VTU7YvQK4vByI4MRUrC+2w7PLIP5IhUhYrMEfhVCl0hF5bKlyiZbhXidaw
-                RYQnRruwcZuVPSaFP1pDGO6kNQKBgQDRE0aRTwacHOIa+OahT4m9WyvbEOxTGtLd
-                NhQttybW+aIuHAl9YfEOqKRv9hBKIxoiMo50SipBqe8xkG1E6hIP18NM2ZmX17Gd
-                4QfD8cYDR5xVYNg7ZfdIq+mmPN5zUdS97+aQnzdDqfAy9+AvJ4UrOQAD5KoRXMfv
-                obkCZyUJgwKBgQDaXbhAJ0JxJP5FE6FtITM+zHISVS33FOq5491MqrUeITHeiuo4
-                ZurwbMItBHYS9+zPebz7UbOFtJ8/3DJu46CXIpqKeC6lVgF6kK+czLLdiSGGztpQ
-                hDUXtoRsb3cgYE3eQyLkqE2My+DmK6+GBfbi3lNbgNAWJgfdbq8pnn3+4QKBgQCr
-                IzkXRnWloereozC9iAq6af+bAN5BJGrIUjTwOsRbIdnEHoUSEfKsyhRX5TXuSY9h
-                wLpkrDSsrToy+wLGb0c7mqStqkyUQyWLkyC1Hpm0I5DvPiehb1ScMsQ9pAN+p9QZ
-                aV70sK8e/uK0BbyHPLU/7Rd7GFixf53VJC75rY5emwKBgQDDNXeL65MqCo8QnL7a
-                0FC1ERk+Ir7TawWfu9fgsZ3e7q9ky4EIQcpEDEhMdo/C6pvr5IicIRtETO3SvN+0
-                vIzn9U04tjSR46QAEmXCZgLW1ePZQ9nVcmypVdXajIyTXTvWF9tZByG15KQs6f2m
-                Cue4iUTXKQumBFpGZUGNKnUlvw==
-            """.trimIndent().replace("\n", "").replace(" ", "")
+            val rawPrivateKey = "YOUR_FIREBASE_PRIVATE_KEY_HERE"
 
             val now = Date()
             val expiry = Date(now.time + 3600 * 1000)
