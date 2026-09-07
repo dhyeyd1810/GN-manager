@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "232152871205",
+    "firebase_url": "https://goldennest-1576e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "goldennest-1576e",
+    "storage_bucket": "goldennest-1576e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232152871205:android:4cbb3f5a9850bb88022acc",
+        "android_client_info": {
+          "package_name": "com.society.buildingmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcGoHp5-fPfbEDhQxZyIVD7OYbVNEAfgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
