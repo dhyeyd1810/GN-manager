@@ -1,30 +1,30 @@
-﻿# GN Management (Golden Nest Society Management App) 🏢✨
+﻿# GN Management (Golden Nest Society Management App) 
 
 A modern Android application built with **Kotlin** and **Jetpack Compose** designed for residential society management, amenity booking, and real-time community announcements.
 
 ---
 
-## 📱 Features
+##  Features
 
 - **🏛️ Amenity & Hall Booking**:
   - Book community halls and club facilities with real-time slot conflict detection.
   - Interactive hourly duration slider and dynamic pricing calculations.
   - Instant confirmation and booking history.
 
-- **📢 Community Announcements & Push Notifications**:
+- ** Community Announcements & Push Notifications**:
   - Direct integration with **Firebase Cloud Messaging (FCM)** using secure HTTP v1 API.
   - Broadcast notifications directly to all society residents under topic-based subscriptions.
 
-- **🎨 Modern Material 3 UI**:
+- ** Modern Material 3 UI**:
   - Built 100% with **Jetpack Compose** for smooth, responsive native Android UI.
   - Dynamic theming with customized color palettes, typography, and clean card layouts.
 
-- **📊 Maintenance & Billing Overview**:
+- ** Maintenance & Billing Overview**:
   - Transparent pricing breakdowns, status chips, and automated invoice calculation.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 - **Language**: Kotlin 2.0+
 - **UI Framework**: Jetpack Compose (Material 3)
@@ -34,7 +34,7 @@ A modern Android application built with **Kotlin** and **Jetpack Compose** desig
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 GNManagement/
@@ -55,7 +55,7 @@ GNManagement/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 - **Android Studio** (Koala / Ladybug or newer recommended)
